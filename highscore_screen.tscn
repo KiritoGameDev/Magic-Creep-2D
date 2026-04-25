@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://dat05acgo60qn"]
+
+[ext_resource type="Script" uid="uid://eh4mn3t7rvx7" path="res://highscore_screen.gd" id="1_bugaw"]
+[ext_resource type="FontFile" uid="uid://bx6r13f0ngi0w" path="res://assets/fonts/Long_Shot.ttf" id="2_b8dcq"]
+
+[node name="HighscoreScreen" type="Control" unique_id=1986003184]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bugaw")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=2115779995]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.09155447, 0.012882635, 0.09406977, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=982449950]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -0.5
+offset_top = -165.5
+offset_right = 0.5
+offset_bottom = 165.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Ponto1" type="Label" parent="VBoxContainer" unique_id=1196117128]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22352941, 1, 0.078431375, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 25
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("2_b8dcq")
+theme_override_font_sizes/font_size = 60
+
+[node name="Ponto2" type="Label" parent="VBoxContainer" unique_id=1203044305]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22352941, 1, 0.078431375, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 25
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("2_b8dcq")
+theme_override_font_sizes/font_size = 60
+
+[node name="Ponto3" type="Label" parent="VBoxContainer" unique_id=1922785218]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22352941, 1, 0.078431375, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 25
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("2_b8dcq")
+theme_override_font_sizes/font_size = 60
+
+[node name="Ponto4" type="Label" parent="VBoxContainer" unique_id=1436932385]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22352941, 1, 0.078431375, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 25
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("2_b8dcq")
+theme_override_font_sizes/font_size = 60
+
+[node name="Ponto5" type="Label" parent="VBoxContainer" unique_id=1895212156]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.22352941, 1, 0.078431375, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/line_spacing = 25
+theme_override_constants/outline_size = 6
+theme_override_fonts/font = ExtResource("2_b8dcq")
+theme_override_font_sizes/font_size = 60
+
+[node name="Sair" type="Button" parent="." unique_id=2136787026]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -43.0
+offset_top = -44.0
+offset_right = 43.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_b8dcq")
+theme_override_font_sizes/font_size = 34
+text = "VOLTAR"
+
+[connection signal="pressed" from="Sair" to="." method="_on_sair_pressed"]
