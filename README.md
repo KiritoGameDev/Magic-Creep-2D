@@ -28,6 +28,8 @@ Este projeto marca o primeiro lançamento oficial da **DragonSlayers Studios**, 
 * `/scripts`: Lógica de programação em GDScript.
 * `/songs`: Trilhas sonoras e efeitos de áudio.
 
+
+[🎮 Jogue agora no Navegador (Itch.io)] https://kiritogamedev.itch.io/magic-creep-2d
 ---
 Desenvolvido por **Rafael Souza Ribeiro** (KiritoGameDev) – Fundador da **DragonSlayers Studios**.
 "Nem só de batalhas vive o homem!" 🦾⚔️
